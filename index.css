@@ -16,19 +16,26 @@ body {
 .my-card {
   max-width: 400px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   padding: 10px 10px;
   transition: 0.4s;
   margin: 15px 15px;
+  height: fit-content;
 }
 .my-card:hover {
   background-color: rgba(255, 255, 255, 1);
   color: black !important;
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 .my-card:hover .my-info {
   color: rgb(6, 6, 198) !important;
+}
+.my-card:hover .my-info a {
+  color: rgb(27, 74, 14) !important;
+}
+.my-card:hover .my-title {
+  background-color: rgba(185, 181, 112, 0.8);
 }
 .my-header {
   border-radius: 12px;
@@ -41,8 +48,31 @@ body {
   margin-top: 20px;
 }
 .my-info {
-  color: rgb(150, 179, 218);
+  color: rgb(214, 222, 233);
   font-family: "Roboto", sans-serif;
   font-weight: bolder !important;
+}
+.my-info a {
+  color: rgb(229, 255, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder !important;
+}
+.my-topic {
   text-indent: 30px;
+}
+.my-title {
+  background-color: rgba(90, 111, 129, 0.8);
+  border-radius: 12px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900 !important;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  transition: 0.8s;
+}
+.cp-text {
+  text-align: center;
+  color: rgba(201, 201, 138, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 }

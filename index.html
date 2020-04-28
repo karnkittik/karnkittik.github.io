@@ -33,8 +33,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Karnkittik</title>
+    <link rel="icon" href="./Picture1.png" type="image/icon type" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -58,8 +62,12 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a
+        class="navbar-brand"
+        href="https://karnkittik.carrd.co/"
+        target="_blank"
+      >
         <img
           src="./Picture1.png"
           width="30"
@@ -70,25 +78,44 @@
         />
         Karnkittik
       </a>
+
+      <ul className="navbar-nav mr-auto"></ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a
+            class="nav-link"
+            href="https://github.com/karnkittik"
+            target="_blank"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Github"
+            ><i class="fa fa-github" style="font-size: 28px;"></i>
+            <span class="sr-only">(current)</span></a
+          >
+        </li>
+      </ul>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: 50px;">
       <div class="row justify-content-center">
-        <div class="col"></div>
+        <!-- <div class="col"></div> -->
         <div
-          class="col-lg-9 col-md-8 col-sm-12 pane justify-content-center"
+          class="col-lg-12 col-md-12 col-sm-12 pane justify-content-center"
           align="center"
         >
           <div class="row justify-content-center">
             <div class="my-header">Experiences</div>
           </div>
           <div class="row justify-content-center">
-            <div class="my-card text-left" style="color: white;">
-              <h4 style="line-height: 50px; text-indent: 20px;">
+            <div
+              class="my-card text-left justify-content-center"
+              style="color: white;"
+            >
+              <h4 class="my-title">
                 Tutor Here
               </h4>
               <div class="row">
-                <div class="col-md-3 col-sm-3 col-3">
-                  <div class="my-info">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
                     Position:
                   </div>
                 </div>
@@ -102,27 +129,28 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-3 col-sm-3 col-3">
-                  <div class="my-info">
-                    Framework:
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Tools:
                   </div>
                 </div>
                 <div class="col">
                   <div class="my-info">
-                    React.js
+                    React.js / Node.js / MongoDB
                   </div>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-3 col-sm-3 col-3">
-                  <div class="my-info">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
                     Github:
                   </div>
                 </div>
                 <div class="col">
                   <div class="my-info">
                     <a
+                      target="_blank"
                       href="https://github.com/2110423-2019-2/sec3_catandfriends"
                       >Link</a
                     >
@@ -135,6 +163,189 @@
               >
                 Project พัฒนาเว็บไซต์ Matching System จับคู่ติวเตอร์และนักเรียน
                 โดยมีระบบการสร้างคอร์ส การจองคอร์ส การค้นหา และการอัปโหลดเอกสาร
+                เป็นส่วนหนึ่งของวิชาวิศวกรรมซอฟแวร์
+              </p>
+            </div>
+            <div
+              class="my-card text-left justify-content-center"
+              style="color: white;"
+            >
+              <h4 class="my-title">
+                Simple LINE-like app
+              </h4>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Position:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    Frontend Developer
+                  </div>
+                  <div class="my-info">
+                    UI/UX Designer
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Tools:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    React.js / Nest.js / Socket.io / MySQL
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Github:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    <a
+                      target="_blank"
+                      href="https://github.com/WatcharitNew/Parallel-ChatParty"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <p
+                style="text-indent: 30px; padding: 0px 10px; margin-top: 10px;"
+              >
+                Project จำลองแอปแชทแบบกลุ่ม มีการรับส่งข้อความ realtime แบบ
+                total ordering เป็นส่วนหนึ่งของวิชาระบบเชิงขนานและระบบกระจาย
+              </p>
+            </div>
+            <div
+              class="my-card text-left justify-content-center"
+              style="color: white;"
+            >
+              <h4 class="my-title">
+                Minor Cineplex
+              </h4>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Position:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    Backend Developer
+                  </div>
+                  <div class="my-info">
+                    Frontend Developer
+                  </div>
+                  <div class="my-info">
+                    UI/UX Designer
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Tools:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    Node.js / Express.js / MySQL
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Github:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    <a
+                      target="_blank"
+                      href="https://github.com/karnkittik/MinorCineplex"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <p
+                style="text-indent: 30px; padding: 0px 10px; margin-top: 10px;"
+              >
+                Project จัดการฐานข้อมูลโรงภาพยนตร์ การแก้ไขข้อมูลสามชิก
+                การเลือกที่นั่ง เป็นส่วนหนึ่งของวิชาระบบจัดการฐานข้อมูล
+              </p>
+            </div>
+            <div
+              class="my-card text-left justify-content-center"
+              style="color: white;"
+            >
+              <h4 class="my-title">
+                King Tower
+              </h4>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Position:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    Programmer
+                  </div>
+                  <div class="my-info">
+                    UI/UX Designer
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Tools:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    Java / JavaFx
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <div class="my-info my-topic">
+                    Github:
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="my-info">
+                    <a
+                      target="_blank"
+                      href="https://github.com/karnkittik/KingTower"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <p
+                style="text-indent: 30px; padding: 0px 10px; margin-top: 10px;"
+              >
+                Project เกมโดยใช้ความรู้ด้าน Object Oriented Programming คู่กับ
+                JavaFx
+                เป็นเกมเลือกลูกระเบิดเพื่อทำลายปราสาทภายในระยะเวลาที่กำหนด
+                เป็นส่วนหนึ่งของวิชาวิทยาการทำโปรแกรม
               </p>
             </div>
           </div>
@@ -144,5 +355,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <p class="cp-text">
+      © Copyright 2020 Karnkittik All rights reserved.
+    </p>
   </body>
 </html>
