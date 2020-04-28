@@ -24,7 +24,7 @@ body {
   height: fit-content;
 }
 .my-card:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.9);
   color: black !important;
   transform: scale(1.04);
 }
