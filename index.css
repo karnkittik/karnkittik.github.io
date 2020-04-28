@@ -24,15 +24,20 @@ body {
   height: fit-content;
 }
 .my-card:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: black !important;
+  /* background-color: rgba(147, 147, 147, 0.9);
+  color: black !important; */
   transform: scale(1.04);
 }
+/* .my-card:hover p,
+.my-card:hover div {
+  color: black !important;
+  transition: 0.4s;
+} */
 .my-card:hover .my-info {
-  color: rgb(6, 6, 198) !important;
+  /* color: rgb(75, 53, 6) !important; */
 }
 .my-card:hover .my-info a {
-  color: rgb(27, 74, 14) !important;
+  /* color: rgb(27, 74, 14) !important; */
 }
 .my-card:hover .my-title {
   background-color: rgba(185, 181, 112, 0.8);
