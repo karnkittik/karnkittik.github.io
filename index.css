@@ -24,8 +24,8 @@ body {
   height: fit-content;
 }
 .my-card:hover {
-  /* background-color: rgba(147, 147, 147, 0.9);
-  color: black !important; */
+  background-color: rgba(42, 45, 56, 0.9);
+  /* color: black !important; */
   transform: scale(1.04);
 }
 /* .my-card:hover p,
